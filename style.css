@@ -1,0 +1,88 @@
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:coral;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+#main
+{
+	text-align: left;
+    background-color:crimson;
+    color:#fff;
+padding-top:5%;	
+}
+.container h1 img{
+	padding-bottom: 10px;
+}
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 10% 15%;
+
+   background-image: url('images/img4.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    	
+ }
+
+
+  #action{
+    background-color:crimson;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer{
+	background-color:crimson;
+	font-style: white;
+}
+.icons li{
+	list-style: none;
+	display:inline;
+	padding: 0.5rem;
+}
+.linkedin{
+	color: white;
+}
+.github{
+color: white;
+}
+.google{
+	color: #D44638;
+}
